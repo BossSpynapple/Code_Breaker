@@ -1,7 +1,8 @@
 function init(){
-  codeGenerator()
+  alert("Page is loaded");
+ // codeGenerator()
 }
 
-function codeGenerator(){
+/*function codeGenerator(){
 code = Math.floor(Math.rand() * 10000 + 1 );
 document.getElementById("answer").innerHTML=code;
